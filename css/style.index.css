@@ -1,3 +1,4 @@
+/* Estilos generales */
 body {
     background-color: #f8f9fa;
     font-family: 'Roboto', sans-serif;
@@ -6,6 +7,7 @@ body {
 h1 {
     font-size: 2.5rem;
     color: #2c3e50;
+    text-align: center;
 }
 
 .card {
@@ -43,3 +45,41 @@ h1 {
 .card-img-top {
     border-radius: 10px;
 }
+
+/* Estilo para el contenedor de las tarjetas */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px; /* Espacio entre las tarjetas */
+}
+
+/* Estilo para las tarjetas en pantallas grandes (mayores a 700px) */
+.col {
+    width: 30%; /* Cada tarjeta ocupa el 30% del contenedor */
+    max-width: 300px; /* Asegura que las tarjetas no sean más grandes de lo esperado */
+}
+
+/* Media Query para pantallas pequeñas (menos de 700px) */
+@media (max-width: 700px) {
+    /* Estilo para cambiar a 4 filas de 2 juegos */
+    .row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas por fila */
+        gap: 20px; /* Espacio entre las tarjetas */
+    }
+
+    .col {
+        width: 100%; /* Cada tarjeta ocupa el 100% del ancho disponible */
+        max-width: none; /* Sin límite de ancho */
+    }
+
+    h1 {
+        font-size: 2rem; /* Reducir el tamaño del título */
+    }
+
+    .card {
+        width: 100%; /* Asegura que las tarjetas sean más grandes en pantallas pequeñas */
+    }
+}
+
