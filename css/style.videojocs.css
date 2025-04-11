@@ -1,18 +1,24 @@
 body {
-    background-color: #f8f9fa;
-    font-family: Arial, sans-serif;
-}
+    background-color: #0f0f0f;
+    font-family: 'Orbitron', sans-serif;
+  }
+  
+  h1, h3, h4 {
+    color: #f0db4f;
+  }
+  
+  p, li {
+    font-size: 1rem;
+    color: #ccc;
+  }
+  
+  ul {
+    list-style-type: square;
+    padding-left: 1.5rem;
+  }
+  
+  iframe {
+    border: 2px solid #f0db4f;
+    border-radius: 12px;
+  }
 
-h1 {
-    font-size: 2.5rem;
-    color: #343a40;
-}
-
-h3 {
-    color: #495057;
-}
-
-ul {
-    list-style-type: none;
-    padding-left: 0;
-}
