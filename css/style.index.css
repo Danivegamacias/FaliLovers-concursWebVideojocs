@@ -19,6 +19,8 @@ body {
   height: 100%;
   width: auto;
   object-fit: contain;
+  align-items: center;
+  justify-content: center;
 }
 
 .card {
