@@ -39,3 +39,23 @@ body {
 .text-center2 {
   color: #f0db4f;
 }
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem; /* equivalente aproximado al g-4 de Bootstrap */
+}
+
+.card-container > div {
+  flex: 0 0 50%; /* 2 columnas por fila en móvil */
+  max-width: 50%;
+  box-sizing: border-box;
+}
+
+/* A partir de 768px (equivalente a col-md-4: 3 columnas) */
+@media (min-width: 768px) {
+  .card-container > div {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+}
