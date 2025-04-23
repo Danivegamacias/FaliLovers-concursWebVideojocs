@@ -34,7 +34,7 @@ body {
     padding: 20px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 700px) {
     main .row > div {
       text-align: center;
     }
