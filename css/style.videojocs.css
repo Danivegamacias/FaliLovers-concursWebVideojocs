@@ -22,3 +22,26 @@ body {
     border-radius: 12px;
   }
 
+  .img-fluid {
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 100px auto;
+    padding: 20px;
+  }
+
+  @media (max-width: 767px) {
+    main .row > div {
+      text-align: center;
+    }
+  
+    main img {
+      max-width: 150px;
+      margin: 0 auto;
+      display: block;
+    }
+  }
