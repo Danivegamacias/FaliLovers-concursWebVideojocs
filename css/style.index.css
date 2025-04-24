@@ -68,12 +68,3 @@ body {
   margin-bottom: 1rem;
   color: #f0db4f;
 }
-
-
-/* A partir de 768px (equivalente a col-md-4: 3 columnas) */
-@media (min-width: 00px) {
-  .card-container > div {
-    flex: 0 0 33.3333%;
-    max-width: 33.3333%;
-  }
-}
