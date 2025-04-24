@@ -1,47 +1,29 @@
 body {
-    background-color: #0f0f0f;
-    font-family: 'Orbitron', sans-serif;
-  }
-  
-  h1, h3, h4 {
-    color: #f0db4f;
-  }
-  
-  p, li {
-    font-size: 1rem;
-    color: #ccc;
-  }
-  
-  ul {
-    list-style-type: square;
-    padding-left: 1.5rem;
-  }
-  
-  iframe {
-    border: 2px solid #f0db4f;
-    border-radius: 12px;
-  }
+  background-color: #0f0f0f;
+  font-family: 'Orbitron', sans-serif;
+}
 
-  .img-fluid {
-    max-height: 200px;
-    object-fit: cover;
-    border-radius: 12px;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 100px auto;
-    padding: 20px;
-  }
+h1, h3, h4 {
+  color: #f0db4f;
+}
 
-  @media (max-width: 700px) {
-    main .row > div {
-      text-align: center;
-    }
-  
-    main img {
-      max-width: 150px;
-      margin: 0 auto;
-      display: block;
-    }
-  }
+p, li {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 1.5rem;
+}
+
+iframe {
+  border: 2px solid #f0db4f;
+  border-radius: 12px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 10000000px auto;
+  padding: 20px;
+}
