@@ -28,9 +28,3 @@ iframe {
   height: auto; /* Mantiene la proporción */
   object-fit: contain; /* Asegura que la imagen no se deforme */
 }
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
