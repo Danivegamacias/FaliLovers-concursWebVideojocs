@@ -12,49 +12,53 @@
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="./img/icon1.png" alt="Inicio" class="img-fluid" style="height: 40px;">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4"> <!-- Barra de navegación con Bootstrap y fondo oscuro -->
+    <div class="container-fluid"> <!-- Contenedor que ocupa todo el ancho disponible -->
+      <a class="navbar-brand" href="#"> <!-- Logo o enlace de inicio -->
+        <img src="./img/icon1.png" alt="Inicio" class="img-fluid" style="height: 40px;"> <!-- Imagen del logo -->
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"> <!-- Botón para desplegar menú en móviles -->
+        <span class="navbar-toggler-icon"></span> <!-- Icono del botón -->
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="views/videojoc1.html">EA FC 25</a></li>
-          <li class="nav-item"><a class="nav-link" href="views/videojoc2.html">GTA V</a></li>
-          <li class="nav-item"><a class="nav-link" href="views/videojoc3.html">Mario Kart 8</a></li>
-          <li class="nav-item"><a class="nav-link" href="views/videojoc4.html">Minecraft</a></li>
-          <li class="nav-item"><a class="nav-link" href="views/videojoc5.html">Torrente "El Brazo Tonto De La Ley"</a></li>
-          <li class="nav-item"><a class="nav-link" href="views/videojoc6.html">Wii Sports</a></li>
+      <div class="collapse navbar-collapse" id="navbarNav"> <!-- Menú colapsable -->
+        <ul class="navbar-nav ms-auto"> <!-- Lista de enlaces alineados a la derecha -->
+          <li class="nav-item"><a class="nav-link" href="views/videojoc1.html">EA FC 25</a></li> <!-- Enlace a FIFA -->
+          <li class="nav-item"><a class="nav-link" href="views/videojoc2.html">GTA V</a></li> <!-- Enlace a GTA -->
+          <li class="nav-item"><a class="nav-link" href="views/videojoc3.html">Mario Kart 8</a></li><!-- Enlace a Mario Kart -->
+          <li class="nav-item"><a class="nav-link" href="views/videojoc4.html">Minecraft</a></li> <!-- Enlace a Minecraft -->
+          <li class="nav-item"><a class="nav-link" href="views/videojoc5.html">Torrente "El Brazo Tonto De La Ley"</a></li> <!-- Enlace a Torrente -->
+          <li class="nav-item"><a class="nav-link" href="views/videojoc6.html">Wii Sports</a></li> <!-- Enlace a Wii -->
         </ul>
       </div>
     </div>
   </nav>
 
-  <main class="container text-white">
-    <h1 class="text-center mb-4"><strong>Fali Lovers Games</strong></h1>
-    <p class="lead text-center">
+  <main class="container text-white"> <!-- Contenido principal con texto en blanco -->
+    <h1 class="text-center mb-4"><strong>Fali Lovers Games</strong></h1> <!-- Título centrado -->
+    <p class="lead text-center"> <!-- Párrafo destacado centrado -->
       FaliLovers es una tienda online especializada en videojuegos para todos los gustos y plataformas. Nuestro objetivo es ofrecerte una experiencia de compra cómoda, rápida y segura, con un catálogo variado que incluye desde los últimos lanzamientos hasta los clásicos más queridos.
       En FaliLovers podrás encontrar videojuegos para PlayStation, Xbox, Nintendo Switch, PC y más, además de ediciones especiales, retro y de colección.
-    </p><br>
+    </p>
+    
+    <br> <!-- Salto de línea -->
 
     <div class="row g-4">
 
       <!-- Tarjeta Juego 1 -->
-      <div class="col-6 col-md-4">
-        <a href="views/videojoc1.html" class="text-decoration-none text-white">
-          <div class="card h-100 text-center p-2 bg-dark border border-warning">
-            <div class="img-container">
-              <img src="./img/fifa.jpg" alt="Juego 1" class="img-fit">
+      <div class="col-6 col-md-4"> <!-- Columna adaptable a tamaños de pantalla -->
+        <a href="views/videojoc1.html" class="text-decoration-none text-white"> <!-- Enlace sin subrayado y texto blanco -->
+          <div class="card h-100 text-center p-2 bg-dark border border-warning"> <!-- Tarjeta con estilos de Bootstrap -->
+            <div class="img-container"> <!-- Contenedor de imagen -->
+              <img src="./img/fifa.jpg" alt="Juego 1" class="img-fit"> <!-- Imagen del juego -->
             </div>
-            <div class="card-body">
-              <h5 class="card-title">Fifa 25</h5>
+            <div class="card-body"> <!-- Cuerpo de la tarjeta -->
+              <h5 class="card-title">Fifa 25</h5> <!-- Título del juego -->
             </div>
           </div>
         </a>
       </div>
+
+            <!-- Repetición del mismo esquema para los demás juegos -->
 
       <!-- Tarjeta Juego 2 -->
       <div class="col-6 col-md-4">
@@ -129,11 +133,12 @@
     </div>
   </main>
 
-  <footer class="text-center text-white py-3 bg-dark mt-5">
-    © 2025 Tienda Fali Lovers
+  <footer class="text-center text-white py-3 bg-dark mt-5"> <!-- Pie de página centrado y con fondo oscuro -->
+    © 2025 Tienda Fali Lovers <!-- Texto del footer -->
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> <!-- Script de Bootstrap para funcionalidad JS -->
+</body>
 </body>
 </html>
 
